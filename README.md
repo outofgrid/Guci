@@ -1,2 +1,17 @@
 # Guci
-conky themes
+Conky themes
+------------
+Display information:
+- Date & time
+- Weather
+- Up times
+- Replace MPD with general media player (Spotify, Rhythmbox, Youtube, etc)
+
+Installation
+------------
+- Install conky</br><pre class="wp-block-preformatted">sudo apt install conky-all playerctl jq curl</pre><p>Next, open your file manager. Press <code>ctrl</code> + <code>h</code> to toggle hidden files on, go to the <code>.config</code> directory and inside of it create a new folder called ‘conky’ (lowercase).</p>
+- Install Guci theme</br><p>Download the <a href="https://www.pling.com/p/#files" target="_blank" rel="noreferrer noopener">Guci Conky config from Pling</a>. Once the download is complete unpack the archive and move the top level folder (‘Guci’) to the  <code>.config/conky</code> folder. </p><p>You should now be able to open a Terminal and run <code>cd .config/conky/Guci</code>, and launch the Conky theme inside by running <code>./start.sh</code>. </p></br>
+
+Even so:
+---
+Enjoy this nice Conky.
