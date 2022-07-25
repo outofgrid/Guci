@@ -1,0 +1,2 @@
+# Guci
+conky themes
